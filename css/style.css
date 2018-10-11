@@ -4,10 +4,19 @@ html {
 
 body {
     height: 100%;
-    
+    background-color:#D8A63E;
+    text-align:center;
+}
+.navbar{
+    display:flex;
+    justify-content:space-around;
 }
 a {
     text-decoration: none;
+    color:black;
+      background-image: linear-gradient(to bottom right, #6F4C00, #996A08,#F5C96B );
+    font-size:20px;
+    border-radius:30px;
 }
 
 .main {
@@ -16,4 +25,9 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header{
+    font-size:50px;
+    background-color:black;
+    color:#996A08;
 }
